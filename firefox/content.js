@@ -43,7 +43,7 @@ async function fetchVideoDetails(videoId, apiKey) {
 
 // Function to process video descriptions and add original video links
 async function processVideoDescriptions() {
-  const apiKey = 'AIzaSyBcfjeSKWpOkF5rFeImuQL2iJopiwR7aTU'; // Replace this with your YouTube Data API key
+  const apiKey = 'YOUR_API_KEY'; // Replace this with your YouTube Data API key
   const videoIds = getVideoIds();
 
   for (const videoId of videoIds) {
