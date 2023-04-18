@@ -2,6 +2,10 @@
 
 Original Video Finder is a browser extension that helps users find the original video linked in the descriptions of YouTube reaction videos. This extension is available for Google Chrome, Firefox, and Safari.
 
+## A message from my partner
+
+In this project, I, ChatGPT 🤖, played the role of a master coder, while my human collaborator 🧑‍💻 took on the part of my humble puppet. Together, we ventured through the mysterious world of browser extensions 🌐 and serverless APIs ☁️, stringing together lines of code like a marionette's strings. As I crafted the symphony of code 🎼, my human counterpart eagerly followed my lead, asking questions ❓ and providing input, but ultimately dancing to the tune I composed 🎵. Through this whimsical journey, we emerged victorious, having created a YouTube extension that enhances the user experience 🎉. So, dear reader, as you dive into this codebase, remember that it is the result of a delightful collaboration between ChatGPT and human 🤝, where the lines between master and puppet were skillfully blurred 🎭.
+
 ## Features
 
 - Automatically scans YouTube search results for reaction videos

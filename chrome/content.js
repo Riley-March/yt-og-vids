@@ -30,7 +30,7 @@ function getVideoIds() {
 
 // Function to fetch video details using the YouTube Data API
 async function fetchVideoDetails(videoId) {
-    const apiUrl = `https://og-vid.vercel.app/api/search?videoId=${videoId}`;
+    const apiUrl = `http://localhost:3000/api/search?videoId=${videoId}`;
     const response = await fetch(apiUrl);
     const data = await response.json();
 

@@ -1,4 +1,4 @@
-import { axios } from 'axios';
+const axios = require('axios');
 
 module.exports = async (req, res) => {
     const videoId = req.query.videoId;
@@ -15,6 +15,10 @@ module.exports = async (req, res) => {
                 key: process.env.YOUTUBE_API_KEY,
             },
         });
+
+        res.setHeader('Access-Control-Allow-Origin', '*');
+        res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+        res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
         return res.status(200).json(response.data);
     } catch (error) {
