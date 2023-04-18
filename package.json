@@ -1,0 +1,22 @@
+{
+  "name": "og-vid",
+  "version": "1.0.0",
+  "description": "Original Video Finder is a browser extension that helps users find the original video linked in the descriptions of YouTube reaction videos. This extension is available for Google Chrome, Firefox, and Safari.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riley-March/yt-og-vids.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Riley-March/yt-og-vids/issues"
+  },
+  "homepage": "https://github.com/Riley-March/yt-og-vids#readme",
+  "dependencies": {
+    "axios": "^1.3.5"
+  }
+}
